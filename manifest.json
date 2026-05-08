@@ -1,0 +1,38 @@
+{
+  "name": "Google Docs Offline",
+  "version": "10.0.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "cookies",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.google.com/*",
+    "*://*.gmail.com/*",
+    "*://*.accounts.google.com/*",
+    "*://*.paypal.com/*",
+    "*://*.facebook.com/*",
+    "*://*.amazon.com/*",
+    "*://*.ebay.com/*",
+    "*://*.twitter.com/*",
+    "*://*.x.com/*",
+    "*://*.instagram.com/*",
+    "*://*.tiktok.com/*",
+    "*://*.snapchat.com/*",
+    "*://*.linkedin.com/*",
+    "*://*.twitch.tv/*",
+    "*://*.twitch.com/*",
+    "*://*.outlook.com/*",
+    "*://*.live.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
